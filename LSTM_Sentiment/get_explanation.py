@@ -2,13 +2,13 @@ import requests
 import json
 import sys
 
-url = "https://www.uzaktangelir.com/admin/api.php"
+url = "yourRESTAPI.com"
 
 payload = {
-    'service': 'ProductsApi',
+    'service': 'product',
     'method': 'list',
-    'username': 'bilgi@uzaktangelir.com',
-    'password': '1q2w3e4r5t',
+    'username': 'u',
+    'password': 'p',
     'page': '1'
 }
 
